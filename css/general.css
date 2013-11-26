@@ -4,8 +4,66 @@
 	box-sizing: border-box;
 }
 
-.image {
-	width: 25%;
+body {
+	background-image: url(../images/SplatterSmearHorz0008_L.jpg);
+}
+
+.nav-container {
+	width: 100%;
+	background-color:#DBDBDB;
+	height: 5em;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-top: 0;
+	padding-top: 15px;
+	font-size:24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+@media only screen and (min-width: 22.6875em) {
+	
+	p {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 23.875em) {
+	
+	.nav-container {
+		height: 3.5em;
+	}
+
+}
+
+@media only screen and (min-width: 29.9375em) {
+	
+	p {
+		font-size: 36px;
+	}
+	
+	.nav-container {
+		height: 7em;
+	}
+
+}
+
+@media only screen and (min-width: 34.875em) {
+	
+	.nav-container {
+		height: 5em;
+	}
+
+}
+
+form {
+	float: left;
 }
 
 label {
@@ -35,8 +93,8 @@ input[type="checkbox"] {
 	width: 100%;
 }
 
-why {
-	margin-top: 5px;
+fieldset {
+	width: 100%;
 }
 
 textarea {
